@@ -1,3 +1,4 @@
+///Palindrome Number
 class Solution9 {
   bool isPalindrome(int x) {
     final str = x.toString();
@@ -9,5 +10,3 @@ class Solution9 {
     return true;
   }
 }
-///Palindrome Number
-/// Beats 99%
