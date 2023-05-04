@@ -7,7 +7,7 @@ class Solution4 {
     if (a.length % 2 != 0) {
       return a[middle].toDouble();
     } else {
-      return (a[middle]+a[middle-1])/2;
+      return (a[middle] + a[middle - 1]) / 2;
     }
   }
 }

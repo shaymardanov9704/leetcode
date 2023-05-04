@@ -1,3 +1,4 @@
+/// Plus One
 class Solution66 {
   List<int> plusOne(List<int> digits) {
     int index = digits.length - 1;
@@ -28,6 +29,3 @@ class Solution66 {
     return newItems;
   }
 }
-
-/// Plus One
-/// Beats 6%

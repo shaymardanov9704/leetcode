@@ -1,3 +1,4 @@
+///Sqrt(x)
 class Solution69 {
   int mySqrt(int x) {
     int sqrt = 0;
@@ -9,6 +10,3 @@ class Solution69 {
     return sqrt;
   }
 }
-
-///Sqrt(x)
-///Beats 68%

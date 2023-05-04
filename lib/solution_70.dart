@@ -1,3 +1,4 @@
+///Climbing Stairs
 class Solution70 {
   int climbStairs(int n) {
     int n1 = 0, n2 = 1;
@@ -10,6 +11,3 @@ class Solution70 {
     return n3;
   }
 }
-
-///Climbing Stairs
-///Beats 66%

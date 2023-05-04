@@ -1,3 +1,4 @@
+/// Remove Element
 class Solution27 {
   int removeElement(List<int> nums, int val) {
     int count = 0;
@@ -11,6 +12,3 @@ class Solution27 {
     return count;
   }
 }
-
-/// Remove Element
-/// Beats 88%

@@ -1,3 +1,4 @@
+/// Find the Index of the First Occurrence in a String
 class Solution28 {
   int strStr(String haystack, String needle) {
     int c = -1;
@@ -10,5 +11,3 @@ class Solution28 {
     return c;
   }
 }
-/// Find the Index of the First Occurrence in a String
-/// Beats 77%

@@ -1,3 +1,4 @@
+///Length of Last Word
 class Solution58 {
   int lengthOfLastWord(String s) {
     while (s.substring(s.length - 1) == " ") {
@@ -7,6 +8,3 @@ class Solution58 {
     return word.length;
   }
 }
-
-///Length of Last Word
-///Beats 89%

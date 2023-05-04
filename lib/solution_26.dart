@@ -1,3 +1,4 @@
+/// Remove Duplicates In Sorted Array
 class Solution26 {
   int removeDuplicates(List<int?> nums) {
     int count = 0;
@@ -11,5 +12,3 @@ class Solution26 {
     return count;
   }
 }
-/// Remove Duplicates In Sorted Array
-/// Beats 62%

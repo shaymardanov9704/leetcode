@@ -1,7 +1,7 @@
 import 'dart:math';
 
+/// Longest Common Prefix
 class Solution14 {
-
   String longestCommonPrefix(List<String> strs) {
     if (strs.isEmpty) return "";
     String prefix = strs[0];
@@ -21,6 +21,3 @@ class Solution14 {
     return prefix;
   }
 }
-
-/// Longest Common Prefix
-/// Beats 86%

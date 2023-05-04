@@ -1,3 +1,4 @@
+/// Merge Two Sorted Lists
 class ListNode {
   int val;
   ListNode? next;
@@ -46,5 +47,3 @@ class Solution21 {
     return res.next;
   }
 }
-/// Merge Two Sorted Lists
-/// Beats 68%
