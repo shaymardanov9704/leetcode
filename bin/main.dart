@@ -1,5 +1,5 @@
-import 'package:leetcode_trainings/solution_7.dart';
+import 'package:leetcode_trainings/solution_8.dart';
 
 void main() {
-  print(Solution7b().reverse(-12099));
+  print(Solution8().myAtoi("+-89989812"));
 }
