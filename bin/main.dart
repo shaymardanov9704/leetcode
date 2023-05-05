@@ -1,5 +1,5 @@
-import 'package:leetcode_trainings/solution_8.dart';
+import 'package:leetcode_trainings/solution_11.dart';
 
 void main() {
-  print(Solution8().myAtoi("+-89989812"));
+  print(Solution11().maxArea( [1,2,5,8,5,4,7]));
 }
