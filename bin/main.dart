@@ -1,5 +1,5 @@
-import 'package:leetcode_trainings/solution_11.dart';
+import 'package:leetcode_trainings/solution_15.dart';
 
 void main() {
-  print(Solution11().maxArea( [1,2,5,8,5,4,7]));
+  print(Solution15().threeSum([-1,0,1,0]));
 }
