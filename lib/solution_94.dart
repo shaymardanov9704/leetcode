@@ -21,3 +21,20 @@ class Solution94 {
     helper(root.right, res);
   }
 }
+
+class B {
+  List<int> inorderTraversal(TreeNode? root) {
+    List stack = [];
+    List<int> ans = [];
+    while (root != null || stack.isNotEmpty) {
+      while (root != null) {
+        stack.add(root);
+        root = root.left;
+      }
+      root = stack.removeLast();
+      ans.add(root!.val);
+      root = root.right;
+    }
+    return ans;
+  }
+}
