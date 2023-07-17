@@ -1,5 +1,5 @@
-import 'package:leetcode_trainings/solution_118.dart';
+import 'package:leetcode_trainings/solution_409.dart';
 
 void main() {
-  Solution118().generate(10);
+  print(Solution409().longestPalindromeV2("abbaccqoooorty"));
 }
