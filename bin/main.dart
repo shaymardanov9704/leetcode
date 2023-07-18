@@ -1,5 +1,5 @@
-import 'package:leetcode_trainings/solution_409.dart';
+import 'package:leetcode_trainings/solution_561.dart';
 
 void main() {
-  print(Solution409().longestPalindromeV2("abbaccqoooorty"));
+  print(Solution561().arrayPairSum([6,2,6,5,1,2]));
 }
