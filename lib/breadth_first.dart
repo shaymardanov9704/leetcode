@@ -3,7 +3,7 @@ import 'dart:collection';
 class Graph<T> {
   Map<T, List<T>>? _adjacencyList;
   Graph() {
-    _adjacencyList = Map();
+    _adjacencyList = <T, List<T>>{};
   }
 
   void insertEdge(T node1, T node2) {
@@ -11,7 +11,7 @@ class Graph<T> {
   }
 
   void BFS(T startNode) {
-    var visited = Set<T>();
+    var visited = <T>{};
     var queue = Queue<T>();
     visited.add(startNode);
     queue.add(startNode);
@@ -68,7 +68,6 @@ abstract class CustomException implements Exception {
   }
 }
 
-//extend custom exception class for EmptyException, you can make your own exception class like this.
 class EmptyException extends CustomException {
   const EmptyException([String? message]) : super(message);
 }
