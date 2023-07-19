@@ -1,11 +1,18 @@
 void main() {
-  int minLength(String s) {
-    while (s.contains("AB") || s.contains("CD")) {
-      s = s.replaceAll("AB", "");
-      s = s.replaceAll("CD", "");
+  int countSeniors(List<String> details) {
+    int result = 0;
+    for(var element in details){
+      if (int.parse(element.substring(11,13)) > 60) {
+        result++;
+      }
     }
-    return s.length;
+    for (int i = 0; i < details.length; i++) {
+      if (int.parse(details[i].substring(11,13)) > 60) {
+        result++;
+      }
+    }
+    return result;
   }
 
-  minLength("ABFCACDB");
+  countSeniors(["7868190130M7522", "5303914400F9211", "9273338290F4010"]);
 }
