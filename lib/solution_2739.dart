@@ -1,4 +1,6 @@
-void main() {
+/// Total Distance Traveled
+
+class Solution2739 {
   int distanceTraveled(int mainTank, int additionalTank) {
     int distance = 0;
     int steps = 0;
@@ -13,6 +15,4 @@ void main() {
     }
     return distance;
   }
-
-  distanceTraveled(9, 1);
 }
