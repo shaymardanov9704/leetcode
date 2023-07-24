@@ -1,4 +1,6 @@
-void main() {
+///Sum Multiples
+
+class Solution2652 {
   int sumOfMultiples(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) {
@@ -8,6 +10,4 @@ void main() {
     }
     return sum;
   }
-
-  print(sumOfMultiples(10));
 }
