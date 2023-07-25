@@ -20,21 +20,19 @@ List<int> quickSort(List<int> array) {
   return quickSort(left) + middle + quickSort(right);
 }
 
-List<int> quickSort2(List<int> values, int left, int right) {
+List<int> quickSortV2(List<int> values, int left, int right) {
   if (left < right) {
     final indexPivot = partition(values, left, right);
-    quickSort2(values, left, indexPivot - 1);
-    quickSort2(values, indexPivot + 1, right);
+    quickSortV2(values, left, indexPivot - 1);
+    quickSortV2(values, indexPivot + 1, right);
   }
   return values;
 }
 
 int partition(List<int> values, int left, int right) {
-  // get a random pivot index
   final pivotRange = right - left + 1;
   final randomPivot = Random().nextDouble().toInt() * pivotRange + left;
 
-  // change the random valor chosen with first position
   swap(values, left, randomPivot);
 
   int pivot = values[left];

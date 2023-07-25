@@ -9,9 +9,9 @@ List<int> mergeSort(List<int> array) {
 
 List<int> merge(List<int> left, List<int> right) {
   List<int> result = [];
-  int? i = 0;
-  int? j = 0;
-  while (i! < left.length && j! < right.length) {
+  int i = 0;
+  int j = 0;
+  while (i < left.length && j < right.length) {
     if (left[i] <= right[j]) {
       result.add(left[i]);
       i++;
@@ -21,12 +21,12 @@ List<int> merge(List<int> left, List<int> right) {
     }
   }
 
-  while (i! < left.length) {
+  while (i < left.length) {
     result.add(left[i]);
     i++;
   }
 
-  while (j! < right.length) {
+  while (j < right.length) {
     result.add(right[j]);
     j++;
   }
