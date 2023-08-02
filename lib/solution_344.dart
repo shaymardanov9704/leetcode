@@ -1,6 +1,6 @@
 ///Reverse String
 
-class Solution244 {
+class Solution344 {
   void reverseString(List<String> s) {
     for (int i = 0; i < s.length ~/ 2; i++) {
       var temp = s[i];
