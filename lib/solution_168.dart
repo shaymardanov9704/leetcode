@@ -1,6 +1,6 @@
 /// Excel Sheet Column Title
 
-class Solution {
+class Solution168 {
   String convertToTitle(int n) {
     return n == 0
         ? ""
