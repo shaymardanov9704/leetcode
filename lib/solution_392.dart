@@ -1,4 +1,6 @@
-void main() {
+///Is Subsequence
+
+class Solution {
   bool isSubsequence(String s, String t) {
     if(s.length > t.length || s.isEmpty) {
       return s.isEmpty;
@@ -12,6 +14,4 @@ void main() {
     }
     return true;
   }
-
-  isSubsequence("ab", "baab");
 }
