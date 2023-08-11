@@ -1,6 +1,6 @@
 ///Combination Sum
 
-class Solution {
+class Solution39 {
   List<List<int>> combinationSum(List<int> candidates, int target) {
     List<List<int>> result = [];
     solve(0, candidates, target, result, []);
