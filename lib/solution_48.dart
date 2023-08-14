@@ -1,4 +1,5 @@
-void main() {
+/// Rotate Image
+class Solution48 {
   void rotate(List<List<int>> matrix) {
     final n = matrix.length;
     final List list = List.generate(n, (index) => List.from(matrix[index]));
@@ -8,11 +9,4 @@ void main() {
       }
     }
   }
-
-  ///[7,4,1],[8,5,2],[9,6,3]
-  rotate([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-  ]);
 }
