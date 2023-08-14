@@ -8,15 +8,11 @@ List<List<int>> combinations(List<int> array, int length) {
   } else {
     for (int i = 0; i <= array.length - length; i++) {
       List<int> subArray = array.sublist(i + 1);
-      print("Sub Array: $subArray");
       List<List<int>> subCombinations = combinations(subArray, length - 1);
-      print("Sub Combinations: $subCombinations");
       for (List<int> combination in subCombinations) {
         combination.insert(0, array[i]);
         result.add(combination);
       }
-      print("Result:  $result");
-      print("\n==================================================\n");
     }
   }
   return result;
