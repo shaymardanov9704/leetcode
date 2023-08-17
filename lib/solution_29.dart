@@ -1,6 +1,6 @@
-import 'package:leetcode_trainings/solution_94.dart';
+/// Divide Two Integers
 
-void main() {
+class Solution29 {
   int divide(int dividend, int divisor) {
     List<String> list = (dividend / divisor).toString().split("");
     Iterable<String> d = list.takeWhile((value) => value != ".");
@@ -11,6 +11,4 @@ void main() {
     }
     return int.parse(d.join());
   }
-
-  print(divide(-2147483648, -1));
 }
